@@ -1,0 +1,21 @@
+
+
+#tab1:checked~.panels #area1 {
+	display: block;
+	background: #e05551;
+}
+
+#tab2:checked~.panels #area2 {
+	display: block;
+	background: #dcdc3d;
+}
+
+
+.panel{
+    padding: 50px;
+    display: none;
+}
+
+input[name="check"]{
+    display: none;
+}
